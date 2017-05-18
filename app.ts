@@ -8,8 +8,6 @@ import * as ejs from 'ejs';
 import * as mongoose from 'mongoose';
 
 import wClass from './api/weightclasses';
-import routes from './routes/index';
-import users from './routes/users';
 
 const CONNECTION = 'mongodb://codercamps:fullstack@ds123381.mlab.com:23381/playaround';
 
