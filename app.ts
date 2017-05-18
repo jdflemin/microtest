@@ -15,6 +15,9 @@ mongoose.connect(CONNECTION)
   .then(() => console.log('DONE DID IT'))
   .catch((err) => console.log(err))
 
+import routes from './routes/index';
+import users from './routes/users';
+
 let app = express();
 
 app.use(function(req, res, next) {
